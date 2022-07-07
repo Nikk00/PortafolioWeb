@@ -10,8 +10,54 @@ nav{
     justify-content: flex-end;
 }
 
+.navbar-toggler{
+    position:absolute;
+    left: 10rem;
+    top: 0.5rem;
+    text-align: end;
+}
 @media screen and (max-width: 990px){
     .navbar-brand{
-        justify-content: none;
+        position:relative;
+        right: 25rem;
+    }
+    .navbar-toggler{
+        position:absolute;
+        left: 28rem;
+        top: 0.5rem;
+        text-align: end;
+    }
+    .navbar-nav{
+        text-align: center;
+    }
+  }
+  @media screen and (max-width: 550px){
+    .navbar-brand{
+        position:relative;
+        right: 20rem;
+    }
+    .navbar-nav{
+        text-align: center;
+    }
+    .navbar-toggler{
+        position:absolute;
+        left: 25rem;
+        top: 0.5rem;
+        text-align: end;
+    }
+  }
+  @media screen and (max-width: 498px){
+    .navbar-brand{
+        position:relative;
+        right: 13rem;
+    }
+    .navbar-nav{
+        text-align: center;
+    }
+    .navbar-toggler{
+        position:absolute;
+        left: 18rem;
+        top: 0.5rem;
+        text-align: end;
     }
   }

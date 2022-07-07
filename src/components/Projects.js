@@ -31,8 +31,11 @@ class Projects extends Component{
 
                 <body className="bodi">
                 <Container>
+                        <div>
+                            <h1 className="aboutH">Projects</h1>
+                        </div>
                 <Row xs={1} md={2} className="g-4">
-                    
+                        
                         <Col>
                             <Card className="bg-dark text-white">
                                 <Card.Img  className="projectCardImg" src={folioImg} alt="Card image" />

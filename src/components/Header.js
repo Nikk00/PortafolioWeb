@@ -24,8 +24,9 @@ class Header extends Component{
             <>
             <Container>
                 <Navbar collapseOnSelect expand='lg'>  
+                    <div className="btnBar">
                     <NavbarToggle aria-controls='responsive-navbar-nav' />
-                
+                    </div>
                 <Navbar.Brand className="menu-brand" href="/">
                 <img src={logo} width="30" height="30" className="d-inline-block align-top"alt="Logotipo"/>
                 <span className="nameLuza"><strong className="nameLogo">Nicolás</strong>Luza</span>
