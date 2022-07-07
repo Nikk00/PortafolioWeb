@@ -66,7 +66,7 @@ class About extends Component{
                         <Col xs={18} md={12}>
                         <div>
                             <h1 className="aboutH">Sobre Mi</h1>
-                            <p className="sobreMi">Hola! Soy Nicolás Luza y me titule como Ingeniero Civil en Informatica en la Universidad de Tarapaca el año 2022, me considero una persona autodidacta que le apasiona la programación y conocer nuevas tecnologías. </p>
+                            <p className="sobreMi">Hola! Soy Nicolás Luza, me titulé como Ingeniero Civil en Informática en la Universidad de Tarapacá el año 2022.  Me considero una persona autodidacta que le apasiona la programación y conocer nuevas tecnologías. </p>
                         </div>
                         <div>
                             <h2 className="aboutH">Mis Habilidades</h2>
