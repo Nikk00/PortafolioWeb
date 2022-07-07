@@ -26,6 +26,18 @@
     font-size:1rem;
     color: black;
   }
+  .homeCardImgOver{
+    animation-name: fadeIn;
+    animation-duration: 3s;
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
   @media screen and (max-width: 960px){
     .cardIMG{
         display: block;
@@ -37,4 +49,5 @@
         height: 4.5rem;
     }
   }
+
   

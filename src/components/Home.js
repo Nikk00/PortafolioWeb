@@ -14,7 +14,7 @@ class Home extends Component{
                     <Container>
                         <Card className="bg-dark">
                         <Card.Img src={codeImg} alt="Card image"className="codeImg"/>
-                            <Card.ImgOverlay>
+                            <Card.ImgOverlay className="homeCardImgOver">
                                 <input type="image" img src={meImg} alt="image"className="meImg"/>
                                 <Card className="descrip">
                                     <Card.Text>
