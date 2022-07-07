@@ -41,7 +41,7 @@ class Projects extends Component{
                                     <Card.Text className="showContent">
                                     Reactjs Bootstrap
                                     </Card.Text>
-                                    <Button  className="showContent" href='https://www.google.com' target="_blank" rel="noopener noreferrer" variant="primary">Github</Button>
+                                    <Button  className="showContent" href='https://github.com/Nikk00/portafolioweb' target="_blank" rel="noopener noreferrer" variant="primary">Github</Button>
                                 </Card.ImgOverlay>
                             </Card>
                         </Col>
