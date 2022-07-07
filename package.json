@@ -2,7 +2,7 @@
   "name": "portafolioweb",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nikk00.github.io/PortafolioWeb/",
+  "homepage": "https://nikk00.github.io/",
   "dependencies": {
     "@headlessui/react": "^1.6.5",
     "@heroicons/react": "^1.0.6",
@@ -23,7 +23,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

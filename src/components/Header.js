@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import { Navbar, Nav, Container, /* Row, Col */ } from 'react-bootstrap';
+import { Navbar, Nav, Container/* Row, Col */ } from 'react-bootstrap';
 import logo  from '../assets/images/logo-nl.png';
 import '../assets/css/Header.css';
 import NavbarToggle from "react-bootstrap/esm/NavbarToggle";
