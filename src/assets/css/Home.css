@@ -1,0 +1,40 @@
+.cardIMG{
+    display: block;
+    background-size: cover;
+    width: 67%;
+  }
+  .codeImg{
+    filter: blur(2px);
+    background-size: cover;
+  }
+  .meImg{
+    width: 25%;
+    border-radius: 100%;
+    background-size: cover;
+    height: auto; 
+    margin: auto auto;
+  }
+  .descrip{
+    opacity: 0.6;
+    text-align: center;
+    position: relative;
+    display: flex; 
+    width: 20rem;
+    margin: auto auto;
+    background-size: cover;
+    font-style:oblique;
+    font-size:1rem;
+    color: black;
+  }
+  @media screen and (max-width: 960px){
+    .cardIMG{
+        display: block;
+        background-size: cover;
+        width: 100%;
+      }
+    .descrip.card{
+        width: 19rem;
+        height: 4.5rem;
+    }
+  }
+  

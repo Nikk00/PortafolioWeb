@@ -1,0 +1,35 @@
+.projectCardImg{
+    width: 300;
+    height: 200;
+}
+.projectCardImgOverlay{
+    display: hidden;
+    text-align: center;
+    justify-content: center;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    opacity: 0;
+}
+.projectCardImgOverlay:hover{
+    background-color: black;
+    opacity: 0.8;
+    text-align: center;
+    justify-content: center;
+    padding-top: 130px;
+}
+
+@media screen and (max-width: 990px){
+    .projectCardImgOverlay{
+        text-align: center;
+        justify-content: center;
+        padding: 4rem; 
+    }
+    .projectCardImgOverlay:hover{
+        background-color: black;
+        opacity: 0.8;
+        text-align: center;
+        justify-content: center;
+        padding-top: 5rem;
+    }
+}
+

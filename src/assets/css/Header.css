@@ -1,0 +1,17 @@
+nav{
+    font-family: monospace;
+    font-size: 17px;
+  }
+.navbar-nav a{
+    color: #00a8ff;
+    font-weight: bold;
+}
+.menubar{
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 990px){
+    .navbar-brand{
+        justify-content: none;
+    }
+  }

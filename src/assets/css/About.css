@@ -1,0 +1,76 @@
+.aboutH{
+  color: #00a8ff;
+  font-weight: bold;
+}
+.sobreMi{
+  text-align: justify;
+}
+.socialIcon{
+    width: 10rem;
+    height: 3em;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0.3rem;
+    margin: 0.3rem;
+}
+.iconImg{
+    position: relative;
+    background-size: cover;
+    width: 2rem;
+    top: 3px;
+  }
+.textIcon{
+    position: relative;
+    font-size: 0.9rem;
+    left: 5px;
+    top: -15px;
+}
+.contactIcon{
+  position: left;
+  background-size: cover;
+  max-width: 2rem;
+  padding: 5px auto;
+}
+
+@media screen and (max-width: 991px){
+  .sobreMi{
+    text-align: justify;
+  }
+  .iconImg{
+    position: relative;
+    background-size: cover;
+    width: 2.5rem;
+    top: 3px;
+  }
+  .socialIcon{
+    width: 8rem;
+    height: 3em;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0.3rem;
+}
+.textIcon{
+    position: right;
+    font-size: 0.6rem;
+    left: 5px;
+    top: -11px;
+}
+.contactIcon{
+  position: left;
+  background-size: cover;
+  width: 1.7rem;
+}
+}
+.iconImg:hover{
+  animation: spinAround 3s linear infinite;
+}
+@keyframes spinAround {
+	from {
+		transform: rotate(0deg)
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
