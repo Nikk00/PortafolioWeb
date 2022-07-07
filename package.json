@@ -2,7 +2,7 @@
   "name": "portafolioweb",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://nikk0.github.io/portafolioweb",
+  "homepage": "http://nikk00.github.io/portafolioweb",
   "dependencies": {
     "@headlessui/react": "^1.6.5",
     "@heroicons/react": "^1.0.6",
