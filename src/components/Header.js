@@ -6,15 +6,15 @@ import NavbarToggle from "react-bootstrap/esm/NavbarToggle";
 import NavbarCollapse from "react-bootstrap/esm/NavbarCollapse";
 const menuItems = [
     {
-      title: 'Home',
+      title: 'Inicio',
       url: '/'
     },
     {
-        title: 'About Me',
+        title: 'Sobre Mi',
         url: '/about'
     },
     {
-        title: 'Projects',
+        title: 'Proyectos',
         url: '/projects'
     }
   ]
@@ -25,7 +25,7 @@ class Header extends Component{
             <Container>
                 <Navbar collapseOnSelect expand='lg'>  
                     <div className="btnBar">
-                    <NavbarToggle aria-controls='responsive-navbar-nav' />
+                    <NavbarToggle aria-controls='responsive-navbar-nav' className="bg-white"/>
                     </div>
                 <Navbar.Brand className="menu-brand" href="/">
                 <img src={logo} width="30" height="30" className="d-inline-block align-top"alt="Logotipo"/>

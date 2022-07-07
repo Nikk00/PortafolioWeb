@@ -65,11 +65,11 @@ class About extends Component{
                     <Row>
                         <Col xs={18} md={12}>
                         <div>
-                            <h1 className="aboutH">About Me</h1>
+                            <h1 className="aboutH">Sobre Mi</h1>
                             <p className="sobreMi">Hola! Soy Nicolás Luza y me titule como Ingeniero Civil en Informatica en la Universidad de Tarapaca el año 2022, me considero una persona autodidacta que le apasiona la programación y conocer nuevas tecnologías. </p>
                         </div>
                         <div>
-                            <h2 className="aboutH">My Skills</h2>
+                            <h2 className="aboutH">Mis Habilidades</h2>
                             <p className="contactMe">Estas son las tecnologías que manejo: </p>
                             <div className="content">
                             {skillItems.map((item, index) => {
@@ -84,7 +84,7 @@ class About extends Component{
                             </div>
                         </div>
                         <div>
-                            <h2 className="aboutH">Contact Me</h2>
+                            <h2 className="aboutH">Contáctame</h2>
                             <p className="contactMe">Me puedes contactar por los siguientes medios: </p>
                         
                             <div className="content">

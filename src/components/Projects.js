@@ -32,7 +32,7 @@ class Projects extends Component{
                 <body className="bodi">
                 <Container>
                         <div>
-                            <h1 className="aboutH">Projects</h1>
+                            <h1 className="aboutH">Proyectos</h1>
                         </div>
                 <Row xs={1} md={2} className="g-4">
                         
