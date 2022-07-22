@@ -1,7 +1,8 @@
 .projectCardImg{
-    width: 300;
-    height: 200;
+    width: 39.6rem;
+    height: 24rem;
 }
+
 .projectCardImgOverlay{
     display: hidden;
     text-align: center;
@@ -19,6 +20,10 @@
 }
 
 @media screen and (max-width: 990px){
+    .projectCardImg{
+        width: 39.6rem;
+        height: 24rem;
+    }
     .projectCardImgOverlay{
         text-align: center;
         justify-content: center;
@@ -33,3 +38,15 @@
     }
 }
 
+@media screen and (max-width: 550px){
+    .projectCardImg{
+        max-width: 31.1rem;
+        height: 14rem;
+    }
+  }
+  @media screen and (max-width: 498px){
+    .projectCardImg{
+        width: 21.8rem;
+        height: 14rem;
+    }
+  }

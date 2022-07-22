@@ -1,8 +1,8 @@
-import React, {Component} from "react";
+import React from "react";
 import '../assets/css/About.css';
 import { Container, Row, Col} from 'react-bootstrap';
-import Header from './Header';
-import Footer from './Footer';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 import gitImage from '../assets/images/github.png'
 import linkeImage from '../assets/images/linkedin.png'
 import gmailImage from "../assets/images/gmail.png"
@@ -49,9 +49,8 @@ const skillItems = [
         class: 'iconImg'
     }
 ]
-class About extends Component{
-    
-    render(){
+function About(){
+
         return(
         <>
             <Header></Header>
@@ -120,7 +119,7 @@ class About extends Component{
         <Footer></Footer>
         </>
         );
-    }
+    
 }
 
 export default About;

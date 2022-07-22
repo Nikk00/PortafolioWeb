@@ -1,11 +1,12 @@
-import React, {Component} from "react";
+import React from "react";
 import {Card, Container/* , Row, Col */} from 'react-bootstrap';
 import codeImg from '../assets/images/codigos.png'
 import meImg from '../assets/images/fotoperfil.jpeg'
 import '../assets/css/Home.css';
-class Home extends Component{
+
+function Home(){
     
-    render(){
+    
         var b = "{";
         var d = "}";
         return(
@@ -27,7 +28,7 @@ class Home extends Component{
                 </main>
             </body>
         );
-    }
+    
 }
 
 export default Home;

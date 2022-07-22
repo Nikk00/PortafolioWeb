@@ -1,7 +1,7 @@
 import React from "react";
 
-class Error{
-    render(){
+function Error(){
+    
         return(
             <body className="bodi content">
             <main className="col-sm-8">
@@ -10,7 +10,7 @@ class Error{
             </main>
         </body>
         );
-    }
+    
 }
 
 export default Error;

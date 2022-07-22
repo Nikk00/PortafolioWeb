@@ -1,27 +1,14 @@
-import React, {Component} from "react";
-import Header from './Header';
-import Footer from './Footer';
+import React from "react";
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 import folioImg from '../assets/images/portafolio.png'
-/* import underImg from '../assets/images/under-construction.png' */
+import lookwhatImg from '../assets/images/lookwhattoplay.png'
 import '../assets/css/Projects.css';
-/* const repoItems = [
-    {
-        src: folioImg,
-        title: 'Portafolio Web',
-        text: 'Reactjs Bootstrap',
-        link: 'www.google.com'
-    },
-    {
-        src: underImg,
-        title: 'Pronto',
-        text: 'Pronto',
-        link: 'www.pronto.com'
-    }
-] */
 
-class Projects extends Component{
-    render(){
+
+function Projects() {
+   
             return(
                 <>
                 <Header></Header>
@@ -35,7 +22,6 @@ class Projects extends Component{
                             <h1 className="aboutH">Proyectos</h1>
                         </div>
                 <Row xs={1} md={2} className="g-4">
-                        
                         <Col>
                             <Card className="bg-dark text-white">
                                 <Card.Img  className="projectCardImg" src={folioImg} alt="Card image" />
@@ -48,7 +34,18 @@ class Projects extends Component{
                                 </Card.ImgOverlay>
                             </Card>
                         </Col>
-                    
+                        <Col>
+                            <Card className="bg-dark text-white">
+                                <Card.Img  className="projectCardImg look" src={lookwhatImg} alt="Card image" />
+                                <Card.ImgOverlay className="projectCardImgOverlay">
+                                    <Card.Title className="showContent">Look What To Play</Card.Title>
+                                    <Card.Text className="showContent">
+                                    Nextjs Tailwindcss API
+                                    </Card.Text>
+                                    <Button  className="showContent" href='https://github.com/Nikk00/look-what-to-play' target="_blank" rel="noopener noreferrer" variant="primary">Github</Button>
+                                </Card.ImgOverlay>
+                            </Card>
+                        </Col>
                 </Row>
                 </Container>
                 <br></br>
@@ -60,6 +57,6 @@ class Projects extends Component{
                 <Footer></Footer>
                 </>
             )
-    }
+    
 }
 export default Projects;
