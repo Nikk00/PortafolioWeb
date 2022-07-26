@@ -42,7 +42,8 @@ function Projects() {
                                     <Card.Text className="showContent">
                                     Nextjs Tailwindcss API
                                     </Card.Text>
-                                    <Button  className="showContent" href='https://github.com/Nikk00/look-what-to-play' target="_blank" rel="noopener noreferrer" variant="primary">Github</Button>
+                                    <Button className="showContent" href='https://github.com/Nikk00/look-what-to-play' target="_blank" rel="noopener noreferrer" variant="primary">Github</Button>
+                                    <Button className="showContent button" href='https://lookwhattoplay.netlify.app/' target="_blank" rel="noopener noreferrer" variant="primary">Ir</Button>
                                 </Card.ImgOverlay>
                             </Card>
                         </Col>

@@ -18,7 +18,9 @@
     justify-content: center;
     padding-top: 130px;
 }
-
+.button{
+    margin: 0.5rem;
+}
 @media screen and (max-width: 990px){
     .projectCardImg{
         width: 39.6rem;
