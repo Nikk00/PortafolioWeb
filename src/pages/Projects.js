@@ -3,7 +3,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 import folioImg from '../assets/images/portafolio.png'
-import lookwhatImg from '../assets/images/lookwhattoplay.png'
+import lookwhatImg from '../assets/images/lookwhattoplay2.png'
 import '../assets/css/Projects.css';
 
 
