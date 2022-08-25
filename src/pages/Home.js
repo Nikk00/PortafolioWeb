@@ -19,7 +19,7 @@ function Home(){
                                 <input type="image" img src={meImg} alt="image"className="meImg"/>
                                 <Card className="descrip">
                                     <Card.Text>
-                                    {b}Hola, mi nombre es Nicolás Luza, soy Desarrollador Frontend y me apasiona la programación.{d}
+                                    {b}Hola, mi nombre es Nicolás Luza, soy Desarrollador Full Stack y me apasiona la programación.{d}
                                     </Card.Text> 
                                 </Card>
                             </Card.ImgOverlay>
